@@ -1,0 +1,29 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+</style>
+
+/* 최상단 메뉴바 & 깃발 */
+
+#tophead{width: 100%;position: relative;}
+#tophead .top{background: #e9ebee;width: 100%;position: relative;z-index: 1001;}
+#tophead .top article{position: relative;}
+#tophead .top .bar{right: 0;top: -3px;position: absolute;z-index: 10;}
+#tophead .top .right{float: right;padding-right: 120px;}
+#tophead .top .right li{float: left;height: 33px;line-height: 28px;padding-bottom: 10px;}
+#tophead .top .right li a{color: #666;font-size: 11px;font-weight: 300;position: relative;}
+#tophead .top .right li a.home{padding-left: 18px;background: url(../images/common/top_home.png) 0 1px no-repeat;margin-right: 8px;padding-right: 10px;}
+#tophead .top .right li a.home::after{width: 1px;height: 9px;background: #949494;right: 0;top: 3px;position: absolute;content: '';}
+
+@media (max-width:1440px){
+    #tophead .top .bar {
+        width: 96px;}
+}
+@media (max-width:1040px){
+    #tophead .top .right{display: none;}
+    #tophead .top .bar{width: 72px;}
+}
+@media (max-width:640px){
+    #tophead .top .bar{width: 55px;}
+}
+
+    

@@ -1,0 +1,381 @@
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff)
+      format("woff"),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf)
+      format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff)
+      format("woff"),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf)
+      format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff)
+      format("woff"),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf)
+      format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff)
+      format("woff"),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf)
+      format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff)
+      format("woff"),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf)
+      format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 900;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff)
+      format("woff"),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf)
+      format("opentype");
+}
+::-moz-selection {
+  background: #3a98d8;
+  color: #fff;
+}
+::selection {
+  background: #3a98d8;
+  color: #fff;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mt15 {
+  margin-top: 15px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+
+#wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.w1720 {
+  max-width: 1720px;
+  margin: 0 auto;
+}
+.w1400 {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.w1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.cbdb::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+/* bxslider 초기화 */
+.bx-wrapper {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+@media (max-width: 720px) {
+  body {
+    font-size: 14px !important;
+  }
+}
+
+/* 탑버튼 */
+#top_btn {
+  background: #fff !important;
+  border-color: #3a98d8 !important;
+  color: #3a98d8 !important;
+  outline: none;
+}
+#top_btn:hover {
+  background: #3a98d8;
+  background: linear-gradient(139deg, #3a98d8 0%, #87bcf5 100%) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+/* 팝업 반응형*/
+@media (max-width: 700px) {
+  .hd_pops {
+    width: 95% !important;
+    top: 65px !important;
+    left: 10px !important;
+  }
+  .hd_pops_con {
+    width: 100% !important;
+  }
+  .hd_pops_footer .hd_pops_reject,
+  .hd_pops_footer .hd_pops_close {
+    font-size: 12px;
+  }
+}
+
+/* 게시판 리스트 카테고리 */
+#bo_cate li {
+  padding: 0 !important;
+}
+#bo_cate #bo_cate_on {
+  border: 1px solid #545454 !important;
+  background: #ffffff !important;
+  color: #3e3e3e !important;
+}
+#bo_cate a {
+  background: #eee;
+  padding: 5px 20px !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  border: 1px solid #cdcbdb !important;
+  border-left: 1px solid #cdcbdb !important;
+  line-height: 25px !important;
+  font-size: 14px;
+  color: #a5a5a5 !important;
+  margin-left: 4px;
+}
+#bo_cate a:focus,
+#bo_cate a:hover,
+#bo_cate a:active {
+  border-color: #3a98d8 !important;
+}
+#bo_cate li:first-child a {
+  margin-left: 0;
+}
+#bo_cate a:focus,
+#bo_cate a:hover,
+#bo_cate a:active {
+  border: 1px solid #545454 !important;
+  background: #ffffff !important;
+  color: #3e3e3e !important;
+}
+
+/* 연도 많은 퍼블리케이션 카테고리 .cate_line */
+#bo_cate.cate_line ul {
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+#bo_cate.cate_line #bo_cate_on {
+  border: none !important;
+  background: #ffffff !important;
+  color: #3e3e3e !important;
+}
+#bo_cate.cate_line a {
+  background: none !important;
+  border: none !important;
+  padding: 5px 8px !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  line-height: 25px !important;
+  font-size: 14px;
+  color: #a5a5a5 !important;
+  margin-left: 4px;
+}
+#bo_cate.cate_line a:focus,
+#bo_cate.cate_line a:hover,
+#bo_cate.cate_line a:active {
+  border: none !important;
+  color: #3e3e3e !important;
+}
+
+@media (max-width: 720px) {
+  #bo_cate a {
+    font-size: 11px;
+  }
+  #bo_cate.cate_line a {
+    line-height: 12px !important;
+  }
+}
+
+/* 게시판 리스트 */
+#bo_list .cnt_cmt {
+  background: #dde6f3 !important;
+  color: #3a98d8 !important;
+} /* 코멘트*/
+#bo_gall .bo_tit .cnt_cmt {
+  background: #dde6f3 !important;
+  color: #3a98d8 !important;
+} /* 코멘트*/
+
+/* 게시판 리스트 하단 page*/
+.pg_page {
+  font-size: 1em !important;
+  color: #959599 !important;
+  height: 36px !important;
+  line-height: 34px !important;
+  min-width: 36px !important;
+  background: #eee !important;
+  border: 1px solid #eee !important;
+}
+.pg_page:hover {
+  color: #79c8fd !important;
+  background: #fff !important;
+  border: 1px solid #ddd !important;
+}
+.pg_current {
+  background: #79c8fd !important;
+  border-color: #79c8fd !important;
+  height: 36px !important;
+  line-height: 34px !important;
+  min-width: 36px !important;
+}
+.pg_end {
+  background: url(../img/btn_end.gif) no-repeat 50% 50% #eee !important;
+}
+.pg_start {
+  background: url(../img/btn_first.gif) no-repeat 50% 50% #eee !important;
+}
+.pg_end:hover {
+  background: url(../img/btn_end.gif) no-repeat 50% 50% #fff !important;
+}
+.pg_start:hover {
+  background: url(../img/btn_first.gif) no-repeat 50% 50% #fff !important;
+}
+
+/* 게시판 보기 */
+.cmt_btn span.total {
+  color: #3a98d8 !important;
+}
+.cmt_btn span.total:after {
+  background: #3a98d8 !important;
+}
+#bo_v_file a:focus,
+#bo_v_file li:hover a,
+#bo_v_file a:active,
+#bo_v_link a:focus,
+#bo_v_link li:hover a,
+#bo_v_link a:active {
+  color: #3a98d8 !important;
+}
+#bo_v_file li:hover i,
+#bo_v_link li:hover i {
+  color: #3a98d8 !important;
+}
+#bo_v_file li:hover,
+#bo_v_link li:hover {
+  color: #dde6f3 !important;
+  background: #f8fbff !important;
+}
+.bo_v_nb li .nb_tit {
+  color: #3a98d8 !important;
+}
+
+/* 버튼 */
+.btn_submit {
+  background: #3a98d8 !important;
+  transition: 0.2s;
+}
+.btn_submit:hover {
+  background: #87bef5 !important;
+}
+.btn_b01:hover,
+.btn_b01:hover {
+  color: #87bef5 !important;
+}
+#bo_w .btn_submit {
+  font-size: 1em !important;
+}
+#bo_w .btn_cancel {
+  font-size: 1em !important;
+}
+a.btn_b02,
+.btn_b02 {
+  background: #3a98d8 !important;
+}
+a.btn_b02:hover,
+.btn_b02:hover {
+  background: #87bef5 !important;
+}
+#bo_v .btn {
+  font-size: 16px !important;
+}
+.more_opt li button,
+.more_opt li a {
+  font-size: 14px !important;
+}
+
+/* 게시판 보기 */
+
+/* 로그인 탭*/
+/*.mb_log_cate{display: none;}*/
+.mbskin {
+  margin: 50px auto !important;
+}
+
+/*링크 검은 테두리 삭제*/
+:focus,
+a,
+button {
+  outline: none !important;
+}
+
+/* 다음 지도 */
+.root_daum_roughmap.root_daum_roughmap_landing {
+  width: 100%;
+}
+.root_daum_roughmap .wrap_controllers {
+  display: none !important;
+}
+.root_daum_roughmap_landing .border2 {
+  display: block !important;
+}
